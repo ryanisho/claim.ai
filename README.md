@@ -1,2 +1,2 @@
-# CLAIM.ai
-CLAIM.ai - a medical claims evaluation tool
+# claim.ai
+claim.ai - a medical bill evaluation tool
