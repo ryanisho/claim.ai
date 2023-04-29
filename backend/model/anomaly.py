@@ -13,8 +13,9 @@ def get_closest_median_cost(search_term, dataframe):
         return median_cost
     else:
         return None
+    
+    #Statistical usage
 
-# Example usage
 search_string = 'fever'
 result = get_closest_median_cost(search_string, df)
 
