@@ -1,0 +1,341 @@
+description,median_cost
+abdominal pain,6112.7388579208
+acute & subacute endocarditis,18079.649272816147
+acute anxiety & delirium states,7565.5155816726365
+acute kidney injury,9433.51229200507
+acute leukemia,19720.40063364448
+acute major eye infections,9263.19151815991
+acute myocardial infarction,8785.535995012599
+adjustment disorders & neuroses except depressive diagnoses,8586.042936421925
+alcohol & drug dependence w rehab or rehab/detox therapy,13093.271789822149
+alcohol abuse & dependence,7317.755450257758
+alcoholic liver disease,8761.672030039525
+allergic reactions,6549.392756449677
+amputation of lower limb except toes,21940.440783316106
+anal procedures,11908.707168128487
+angina pectoris & coronary atherosclerosis,5476.395510414824
+appendectomy,13249.840905253212
+asthma,6636.338481840927
+bacterial & tuberculous infections of nervous system,25953.306492077783
+behavioral disorders,12175.919438986992
+bipolar disorders,10708.368369106787
+bone marrow transplant,114646.36531844315
+bpd & oth chronic respiratory diseases arising in perinatal period,17163.54734838442
+"brain contusion/laceration & complicated skull fx, coma < 1 hr or no coma",11396.347287819128
+breast procedures except mastectomy,17686.520282121728
+bronchiolitis & rsv pneumonia,8109.838563919018
+burns with skin graft except extensive 3rd degree burns,39210.388005496665
+cardiac arrest,6166.9787644263415
+cardiac arrest and shock,8715.068310797826
+cardiac arrhythmia & conduction disorders,7132.220313117102
+cardiac catheterization for coronary artery disease,12464.202191726192
+cardiac catheterization for ischemic heart disease,10219.014606741574
+cardiac catheterization for other non-coronary conditions,16648.523978307694
+cardiac catheterization w circ disord exc ischemic heart disease,12803.179442204302
+cardiac defibrillator & heart assist implant,58515.68094075038
+cardiac pacemaker & defibrillator device replacement,31747.58493135808
+cardiac pacemaker & defibrillator revision except device replacement,22769.937157118453
+cardiac structural & valvular disorders,8475.40632290723
+cardiac valve procedures w ami or complex pdx,71683.24429797014
+cardiac valve procedures w cardiac catheterization,56130.50862068965
+cardiac valve procedures w/o ami or complex pdx,56484.11393513514
+cardiac valve procedures w/o cardiac catheterization,43527.77657320872
+cardiomyopathy,8935.527838644995
+cellulitis & other bacterial skin infections,7895.676349514563
+cellulitis & other skin infections,9261.000751792682
+cervical spinal fusion & other back/neck proc exc disc excis/decomp,28969.341755035795
+cesarean delivery,9632.58546353319
+chemotherapy,11291.465531914893
+chemotherapy for acute leukemia,16716.492504546666
+chest pain,5030.016474430572
+childhood behavioral disorders,11049.433435635123
+cholecystectomy except laparoscopic,19424.16950198566
+chronic kidney disease,9138.95295488757
+chronic obstructive pulmonary disease,7861.858680673008
+cleft lip & palate repair,11390.981153649705
+coagulation & platelet disorders,13401.922500755602
+cocaine abuse & dependence,6681.510271971023
+"concussion, closed skull fx nos,uncomplicated intracranial injury, coma < 1 hr or no coma",7812.531474222008
+connective tissue disorders,10559.632759408798
+"contusion, open wound & other trauma to skin & subcutaneous tissue",7328.753445433085
+coronary bypass w ami or complex pdx,58744.61891387838
+coronary bypass w cardiac cath or percutaneous cardiac procedure,45339.55157650696
+coronary bypass w/o ami or complex pdx,46842.256059830135
+coronary bypass w/o cardiac cath or percutaneous cardiac procedure,36161.740095389505
+craniotomy except for trauma,30711.852103726345
+craniotomy for multiple significant trauma,37757.306144243346
+craniotomy for trauma,30132.671570655904
+cva & precerebral occlusion w infarct,10810.325460517271
+cystic fibrosis - pulmonary disease,15677.601714158924
+"d&c, aspiration curettage or hysterotomy for obstetric diagnoses",8075.521588373963
+degenerative nervous system disorders exc mult sclerosis,10875.12434483647
+dental & oral diseases & injuries,7842.107387129327
+depression except major depressive disorder,7375.803906100241
+diabetes,6686.2546466528065
+digestive malignancy,10594.209461199598
+dilation & curettage for non-obstetric diagnoses,12953.878851364969
+disorders of gallbladder & biliary tract,8826.511240658216
+disorders of pancreas except malignancy,8180.380865550428
+disorders of personality & impulse control,11453.597475045686
+diverticulitis & diverticulosis,8306.53776312213
+dorsal & lumbar fusion proc except for curvature of back,41686.94809693683
+dorsal & lumbar fusion proc for curvature of back,64547.83710569975
+"drug & alcohol abuse or dependence, left against medical advice",4580.252472561146
+"ear, nose, mouth, throat, cranial/facial malignancies",13082.395519160602
+eating disorders,12672.914781405538
+ectopic pregnancy procedure,9322.008105718682
+electrolyte disorders except hypovolemia related,6462.158052431391
+extensive 3rd degree burns w skin graft,91708.12401781944
+extensive 3rd degree or full thickness burns w/o skin graft,12330.823942811565
+extensive abdominal/thoracic procedures for mult significant trauma,24683.603754148742
+extensive procedure unrelated to principal diagnosis,26028.016021041054
+extracranial vascular procedures,19962.11442019287
+eye disorders except major infections,7582.059923471993
+eye procedures except orbit,14709.60171219584
+facial bone procedures except major cranial/facial bone procedures,17486.935175981027
+false labor,3511.914752684737
+female reproductive system infections,8800.562966079611
+female reproductive system malignancy,10386.662127256286
+female reproductive system reconstructive procedures,10911.201364306988
+fever,6727.183347389473
+foot & toe procedures,15036.321982602083
+fracture of femur,8470.78263248386
+fracture of pelvis or dislocation of hip,8010.945744100333
+"fractures & dislocations except femur, pelvis & back",8149.5234104662795
+full thickness burns w skin graft,36383.27477443609
+gastrointestinal vascular insufficiency,9582.957083674057
+hand & wrist procedures,16169.180085403581
+head trauma w coma >1 hr or hemorrhage,10191.766383977729
+heart &/or lung transplant,208891.64505555882
+heart failure,8746.567281985404
+hepatic coma & other major acute liver disorders,8733.808259383653
+"hernia procedures except inguinal, femoral & umbilical",16487.480909897193
+hip & femur procedures for non-trauma except joint replacement,22379.167126960037
+hip & femur procedures for trauma except joint replacement,18253.679452513967
+hip and femur fracture repair,22419.46777718202
+hip joint replacement,23242.357997571322
+hiv w major hiv related condition,13355.19105242903
+hiv w multiple major hiv related conditions,21607.883539021444
+hiv w multiple significant hiv related conditions,15406.292827376235
+hiv w one signif hiv cond or w/o signif related cond,13343.205308195798
+hypertension,6666.691829163189
+hypovolemia & related electrolyte disorders,6224.367068392552
+inborn errors of metabolism,12127.84440456018
+infections of upper respiratory tract,5834.019975767703
+infectious & parasitic diseases including hiv w o.r. procedure,21173.023044452304
+inflammatory bowel disease,8749.853949174574
+"inguinal, femoral & umbilical hernia procedures",12879.92754375211
+interstitial & alveolar lung diseases,9840.446471610681
+intervertebral disc excision & decompression,18061.228337819215
+intestinal obstruction,7723.391399270302
+intracranial hemorrhage,11420.570489667212
+kidney & urinary tract infections,7155.070154255833
+kidney & urinary tract malignancy,10962.825682474493
+kidney & urinary tract procedures for malignancy,19679.308580987497
+kidney & urinary tract procedures for nonmalignancy,16294.953551475097
+kidney transplant,163582.93781881747
+knee & lower leg procedures except foot,18943.874265668655
+knee joint replacement,22089.634948099338
+laparoscopic cholecystectomy,13173.321684959146
+liver transplant &/or intestinal transplant,121295.2178207069
+lower extremity arterial procedures,32963.21067029958
+lymphatic & other malignancies & neoplasms of uncertain behavior,10307.504607646631
+"lymphoma, myeloma & non-acute leukemia",14071.451053185016
+major abdominal vascular procedures,38551.873626811604
+major biliary tract procedures,21706.193958293446
+major bladder procedures,26958.93248034789
+major cardiothoracic repair of heart anomaly,46659.715185163936
+major chest & respiratory trauma,9093.254032121975
+major cranial/facial bone procedures,27767.292100783616
+major depressive disorders & other/unspecified psychoses,9548.392477492158
+major esophageal disorders,9750.147236191022
+major gastrointestinal & peritoneal infections,9576.844255008293
+major hematologic/immunologic diag exc sickle cell crisis & coagul,9784.179778114118
+major larynx & trachea procedures,36714.337590209216
+major male pelvic procedures,16861.384271334795
+major o.r. procedures for lymphatic/hematopoietic/other neoplasms,28432.1192634642
+"major pancreas, liver & shunt procedures",26212.22664338094
+major respiratory & chest procedures,28631.951205861973
+major respiratory infections & inflammations,10726.522300581688
+major skin disorders,9726.1949277122
+major small & large bowel procedures,23353.37982480075
+"major stomach, esophageal & duodenal procedures",24115.90808892441
+major thoracic & abdominal vascular procedures,28882.706940350876
+male reproductive system diagnoses except malignancy,7631.694174996005
+"malfunction, reaction & complication of gi device or procedure",8665.424787496719
+"malfunction, reaction, complic of genitourinary device or proc",7839.807769043115
+"malfunction, reaction, complic of orthopedic device or procedure",11039.210694760439
+"malfunction,reaction,complication of cardiac/vasc device or procedure",8413.987934509649
+malignancy of hepatobiliary system & pancreas,10058.184946242369
+"malignancy, male reproductive system",11954.714571296647
+malignant breast disorders,12398.003751857634
+"malnutrition, failure to thrive & other nutritional disorders",9180.973532718494
+mastectomy procedures,15257.434444282007
+menstrual & other female reproductive system disorders,6987.226997557386
+mental illness diagnosis w o.r. procedure,36947.259526600654
+migraine & other headaches,6629.879366832532
+moderately extensive procedure unrelated to principal diagnosis,18238.46884607756
+multiple sclerosis & other demyelinating diseases,13553.460103454592
+multiple significant trauma w/o o.r. procedure,12123.185290064082
+musculoskeletal & other procedures for multiple significant trauma,26004.245489939454
+musculoskeletal malignancy & pathol fracture d/t muscskel malig,12276.980249836834
+neonatal aftercare,39566.11888307969
+neonate birthwt 1000-1249g w or w/o other significant condition,84465.01191881968
+neonate birthwt 1500-1999g w congenital/perinatal infection,48138.09557664182
+neonate birthwt 1500-1999g w major anomaly,51454.91553813797
+neonate birthwt 500-749g w/o major procedure,97719.76470894816
+neonate birthwt 750-999g w/o major procedure,127312.68502311336
+neonate birthwt >2499g w congenital/perinatal infection,17936.045948594252
+neonate birthwt >2499g w major anomaly,13568.610660122937
+neonate birthwt >2499g w major cardiovascular procedure,59033.960233743026
+neonate birthwt >2499g w other major procedure,47543.35636253327
+neonate birthwt >2499g w other significant condition,13450.166432972992
+"neonate birthwt >2499g, normal newborn or neonate w other problem",3152.377150795956
+neonate bwt 1000-1249g w resp dist synd/oth maj resp or maj anom,103884.11069736301
+neonate bwt 1250-1499g w or w/o other significant condition,64342.56863275366
+neonate bwt 1250-1499g w resp dist synd/oth maj resp or maj anom,80418.24404673836
+neonate bwt 1500-1999g w or w/o other significant condition,37417.97109512345
+neonate bwt 1500-1999g w resp dist synd/oth maj resp cond,53831.7884320297
+neonate bwt 1500-2499g w major procedure,72197.87287297698
+neonate bwt 2000-2499g w congenital/perinatal infection,28272.652899484558
+neonate bwt 2000-2499g w major anomaly,28881.84960926516
+neonate bwt 2000-2499g w other significant condition,27357.758748647808
+neonate bwt 2000-2499g w resp dist synd/oth maj resp cond,30973.447836427567
+"neonate bwt 2000-2499g, normal newborn or neonate w other problem",6261.530384736999
+neonate bwt <1500g w major procedure,178378.6220832512
+neonate bwt <500g or ga <24 weeks,96209.52559720233
+neonate w ecmo,175233.1763103492
+"neonate, birthwt >2499g w resp dist synd/oth maj resp cond",15821.84162703806
+"neonate, transferred < 5 days old, born here",2550.3047435606577
+"neonate, transferred <5 days old, not born here",5101.145907446171
+nephritis & nephrosis,11149.523767185892
+nervous system malignancy,10500.14829593116
+"non-bacterial gastroenteritis, nausea & vomiting",5671.276150501672
+non-bacterial infections of nervous system exc viral meningitis,16799.421038548233
+nonextensive procedure unrelated to principal diagnosis,15915.419080302307
+nonspecific cva & precerebral occlusion w/o infarct,9022.800788942139
+nontraumatic stupor & coma,8839.951168565338
+o.r. procedure for other complications of treatment,17844.03779322297
+opioid abuse & dependence,6795.484753015503
+orbital procedures,16597.536508273482
+organic mental health disturbances,10525.216376549462
+"osteomyelitis, septic arthritis & other musculoskeletal infections",13033.993254206694
+other & unspecified gastrointestinal hemorrhage,8643.806494770815
+other aftercare & convalescence,12066.18027060662
+other anemia & disorders of blood & blood-forming organs,7696.534502127069
+other antepartum diagnoses,4660.151937742433
+"other back & neck disorders, fractures & injuries",8546.513890345666
+other bladder procedures,17803.116071674925
+other cardiothoracic & thoracic vascular procedures,32703.948820871516
+other cardiothoracic procedures,32275.037975460124
+other chemotherapy,15936.540423975495
+other circulatory system diagnoses,7896.457897948381
+other circulatory system procedures,21128.23577044888
+other complications of treatment,8641.486898406014
+other digestive system & abdominal procedures,18890.049404402773
+other digestive system diagnoses,8256.825069888484
+other disorders of nervous system,10200.8585737736
+other disorders of the liver,8181.063106055639
+other drug abuse & dependence,7296.010126861217
+"other ear, nose, mouth & throat procedures",13821.733246392536
+"other ear, nose, mouth,throat & cranial/facial diagnoses",7438.592116046267
+other endocrine disorders,9373.024075384934
+other esophageal disorders,7345.269624286963
+other female reproductive system & related procedures,14561.7035189609
+"other gastroenteritis, nausa & vomiting",6879.377564626858
+"other hepatobiliary, pancreas & abdominal procedures",18554.141189058846
+other infectious & parasitic diseases,10360.928150306045
+"other injury, poisoning & toxic effect diagnoses",9499.919017494092
+"other kidney & urinary tract diagnoses, signs & symptoms",7881.637461080324
+"other kidney, urinary tract & related procedures",20671.111246503082
+other major head & neck procedures,28040.730325148463
+other male reproductive system & related procedures,14508.04924407426
+other mental health disorders,11499.20366494885
+other musculoskeletal system & connective tissue diagnoses,7869.774542406667
+other musculoskeletal system & connective tissue procedures,19363.843557795266
+other nervous system & related procedures,22586.535175653542
+other o.r. proc for obstetric diagnoses except delivery diagnoses,11292.592400094738
+other o.r. procedures for lymphatic/hematopoietic/other neoplasms,21522.51021500289
+other peripheral vascular procedures,25448.16625588241
+other pneumonia,8013.568279539739
+"other procedures for endocrine, nutritional & metabolic disorders",25062.04345317006
+other procedures of blood & blood-forming organs,21160.569683754085
+other respiratory & chest procedures,21593.830349666485
+"other respiratory diagnoses except signs, symptoms & minor diagnoses",8837.6386474545
+other significant hip and femur surgery,30331.135423030377
+"other skin, subcutaneous tissue & breast disorders",7376.698518006218
+"other skin, subcutaneous tissue & related procedures",14482.199314861682
+other small & large bowel procedures,19299.858948519137
+"other stomach, esophageal & duodenal procedures",18011.42754692232
+other vascular procedures,23820.700108541765
+pancreas transplant,104845.29984617206
+partial thickness burns w or w/o skin graft,11020.509374275782
+partial thickness burns without skin graft,15304.284799000934
+"pelvic evisceration, radical hysterectomy & other radical gyn procs",20352.76218762264
+penis procedures,16631.113963118267
+peptic ulcer & gastritis,8793.2191373627
+percutaneous cardiovascular procedures w ami,21671.228692614768
+percutaneous cardiovascular procedures w/o ami,20277.92339222615
+percutaneous coronary intervention w ami,24466.18349802857
+percutaneous coronary intervention w/o ami,23692.65369731189
+peripheral & other vascular disorders,8638.729403254538
+"peripheral, cranial & autonomic nerve disorders",8279.406529787566
+peritoneal adhesiolysis,20647.964831767167
+"perm cardiac pacemaker implant w/o ami, heart failure or shock",23419.869591056024
+"permanent cardiac pacemaker implant w ami, heart failure or shock",30185.08524484599
+pituitary & adrenal procedures,27190.806168009232
+poisoning of medicinal agents,6292.097631734206
+"post-op, post-trauma, other device infections w o.r. procedure",20693.97763716507
+"post-operative, post-traumatic, other device infections",10668.939101727401
+postpartum & post abortion diagnoses w/o procedure,5708.819383470031
+preterm labor,4869.031249258183
+"procedure w diag of rehab, aftercare or oth contact w health service",26395.658012930166
+procedures for obesity,16604.71878552195
+pulmonary edema & respiratory failure,10114.469539633092
+pulmonary embolism,10458.451169063306
+radiotherapy,23905.340437657873
+rehabilitation,18981.04412962802
+renal dialysis access device procedure only,23211.02202535053
+renal failure,7188.807566265061
+respiratory failure,11670.46760838644
+respiratory malignancy,10169.771283302372
+"respiratory signs, symptoms & minor diagnoses",6312.4862315699165
+respiratory system diagnosis w ventilator support 96+ hours,37125.258288672965
+schizophrenia,14253.76797829969
+seizure,6810.288041887362
+septicemia & disseminated infections,9739.816709032495
+shoulder & elbow joint replacement,25070.378947145033
+"shoulder, upper arm & forearm procedures",18565.90050919983
+"shoulder, upper arm & forearm procedures except joint replacement",23188.473492794008
+sickle cell anemia crisis,10315.415168437228
+"signs, symptoms & other factors influencing health status",6873.728037764724
+sinus & mastoid procedures,17705.722220113003
+skin graft for skin & subcutaneous tissue diagnoses,22331.27410884048
+"skin graft, except hand, for musculoskeletal & connective tissue diagnoses",33167.2800565311
+skin ulcers,10454.711971112962
+spinal disorders & injuries,16212.067458366562
+spinal procedures,30186.571754781322
+splenectomy,24907.131287313732
+syncope & collapse,6160.734232680062
+"tendon, muscle & other soft tissue procedures",18135.794178174245
+testes & scrotal procedures,19044.25335817339
+"thyroid, parathyroid & thyroglossal procedures",15844.20332961218
+tonsil & adenoid procedures,10034.354876706475
+toxic effects of non-medicinal substances,6271.607912502504
+tracheostomy w mv 96+ hours w extensive procedure or ecmo,99336.56403122672
+tracheostomy w mv 96+ hours w/o extensive procedure,85479.61895337734
+transient ischemia,6740.971739443641
+transurethral prostatectomy,12405.493244625353
+urethral & transurethral procedures,11460.265789722147
+urinary stones & acquired upper urinary tract obstruction,6332.694655435748
+uterine & adnexa procedures for leiomyoma,12903.937964512674
+uterine & adnexa procedures for non-malignancy except leiomyoma,12213.031942876296
+uterine & adnexa procedures for non-ovarian & non-adnexal malig,16801.242759412697
+uterine & adnexa procedures for ovarian & adnexal malignancy,21227.47303917844
+vaginal delivery,6201.622582133012
+vaginal delivery w complicating procedures exc sterilization &/or d&c,8267.651856170842
+vaginal delivery w sterilization &/or d&c,8588.575506374096
+ventricular shunt procedures,23259.91995741158
+vertigo & other labyrinth disorders,5957.1977108364845
+viral illness,6584.364355797734
+viral meningitis,10573.97044676349
