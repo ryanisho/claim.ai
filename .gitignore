@@ -1,4 +1,6 @@
 private.py
 output.csv
+__pychache__/
 /.ipynb_checkpoints/*
 frontend/.DS_Store
+config.py

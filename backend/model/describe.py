@@ -1,31 +1,35 @@
 import openai
+import anomaly
+import pandas as pd
+import image_reader as ir
+openai.api_key = OPENAI_KEY
 
-openai.api_key = "KEY HERE"
+# define the medical condition/diagnostic category you want to analyze
+condition_example = "heart disease"
 
-def evaluate_hospital_bill(bill_details: str) -> str:
-    prompt = f"Is the following hospital bill overpriced? Please provide a yes or no answer, along with an explanation.\n\n{bill_details}\n"
+df1 = pd.read_csv("backend\model\data\data.csv")
+df2 = ir.read_image("backend\model\data\CSBill1.png")
+df2 = pd.DataFrame(
+    {"description": ["x-ray", "liver transplant", "medications : XYZ", "aggregated charges"],
+     "price": [1109, 221580, 5000, 121000]})
+combined_description = ' '.join(df2['description'].tolist())
+condition = anomaly.find_closest_match(
+    combined_description, df1['description'].tolist())
 
+
+if condition != '':
+    # make a chat-bot request for a description
     response = openai.Completion.create(
-        engine="text-davinci-003",
-        prompt=prompt,
-        max_tokens=100,
+        engine="text-davinci-002",
+        prompt=f"Describe {condition}. Provide a short list of symptoms, tests, and treatments. Also, provide a list of 10 or less microtransactions associated with hospitals that charge for this type of condition.",
+        max_tokens=400,
         n=1,
         stop=None,
-        temperature=0.5,
+        temperature=0.25,
     )
 
-    answer = response.choices[0].text.strip()
-    return answer
-
-if __name__ == "__main__":
-    bill_details = """
-    Hospital Bill:
-    - Room charges: $500 per day (3 days)
-    - Doctor's fee: $1000
-    - Medication: $300
-    - Lab tests: $250
-    - Miscellaneous: $150
-    """
-    
-    evaluation = evaluate_hospital_bill(bill_details)
-    print("Hospital bill evaluation:\n", evaluation)
+    # print the generated text
+    print(response.choices[0].text)  # TODO: return this and send to front-end
+else:
+    # TODO: return this and send to front-end
+    print("Bill diagnostic category not recognized")
