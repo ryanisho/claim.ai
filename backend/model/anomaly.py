@@ -7,7 +7,7 @@ df1 = pd.read_csv("backend\model\data\data.csv")
 df2 = ir.read_image("backend\model\data\CSBill1.png")
 df2 = pd.DataFrame(
     {"description": ["x-ray", "liver transplant", "medications : XYZ", "aggregated charges"],
-     "price": [1109, 221580, 5000, 121000]})  # predefined for testing purposes
+     "price": [1109, 221580, 5000, 121000]})
 
 # Function to find the closest match
 
@@ -63,10 +63,6 @@ def get_price_for_description(df, target_description):
         return None
 
 
-def get_closest_match():
-    return find_closest_match(combined_description, df1['description'].tolist())
-
-
 # Combine all the descriptions in the new dataframe
 combined_description = ' '.join(df2['description'].tolist())
 
@@ -80,11 +76,8 @@ if result != '':
         new_value = get_price_for_description(
             df2, find_total_charges_description(df2))
         if (percent_difference(known_median, new_value) > 30 and new_value > known_median):
-            # TODO: return this and send to front-end
             print("The bill is priced higher than the NY state medians for diagnostic related group classifications")
         else:
-            # TODO: return this and send to front-end
             print("The bill is reasonably priced according to NY state medians for diagnostic related group classifications")
 else:
-    # TODO: return this and send to front-end
     print("No close match was found.")
