@@ -2,12 +2,16 @@ import cv2
 import pytesseract
 from PIL import Image
 import pandas as pd
-import os
 
 
 def read_image(path_to_img):
     # Set the path to tesseract executable
-    pytesseract.pytesseract.tesseract_cmd = 'C:/Program Files/Tesseract-OCR/tesseract.exe'
+    # Windows OS Implementation
+
+    #pytesseract.pytesseract.tesseract_cmd = 'C:/Program Files/Tesseract-OCR/tesseract.exe'
+    
+    # macOS Implementation
+    pytesseract.pytesseract.tesseract_cmd = "/opt/homebrew/bin/tesseract"
 
     # Load the image
     # change to link-up with the front-end file drop feature
@@ -37,14 +41,5 @@ def read_image(path_to_img):
                 continue
 
     df = pd.DataFrame(data, columns=['description', 'price'])
-
     return df
 
-
-def main():
-    df = read_image("backend\model\data\CSBill1.png")
-    print(df)
-    return df
-
-if __name__ == "__main__":
-    main()

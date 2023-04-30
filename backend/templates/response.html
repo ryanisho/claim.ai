@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>claim.ai</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="./static/css/essential.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="./static/css/style.css">
+    <link href="https://uploads-ssl.webflow.com/63a4d61127f93641d7ae56a7/63b878ca4b43c75ee8c6b487_icon-32.png" rel="shortcut icon" type="image/x-icon">
+    <link href="https://uploads-ssl.webflow.com/63a4d61127f93641d7ae56a7/63b878cce27f73545d106479_icon-256.png" rel="apple-touch-icon">
+    <link rel="stylesheet" href="./static/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./static/css/popup.css">
+  </head>
+  <body class="dark-theme">
+    <div class="page-wrapper">
+      <div class="nav">
+        <div class="container nav-container">
+          <a>
+            <div class="nav-menu">
+              <div class="nav-links">
+                <a href="/" class="nav-menu-link">Home</a>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div id="services" class="sec">
+        <div class="container">
+          <div class="padding-top padding-40"></div>
+          <div class="w-layout-grid grid">
+            <div id="w-node-_4fdfd6e7-60df-9494-ebc4-08a484a4eea1-daae56a8" class="h-services-text">
+              <div class="double-header"> {% if infoOverpaying %} <h2 class="f-48">Status: <a style="color: red">{{overpaying}}</a>
+                </h2> {% else %} <h2 class="f-48">Status: <a style="color: green">{{overpaying}}</a>
+                </h2> {% endif %} <div data-w-id="b755d035-684d-f466-55ff-bda195622778" class="double-header-bottom">
+                  <div style="transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;" class="f-48">Your breakdown:</div>
+                </div>
+              </div>
+              <div class="padding-bottom padding-32"></div>
+              <p class="f-24">{{informationText}}</p>
+            </div>
+            <div id="w-node-b39915ad-eae7-aa9d-5bda-941296e90455-daae56a8">
+              <div class="f-roc-grotesk">
+                <p class="f-24">Potential Services:</p>
+              </div>
+              <div class="h-services-tags-wrapper"> {% for each in items_list %} <div class="service-tag">{{ each }}</div> {% endfor %} </div>
+            </div>
+          </div>
+          <div class="padding-bottom padding-110"></div>
+          <br>
+          <br>
+          <div class="f-roc-grotesk">
+            <p class="f-24">Understanding your charges:</p>
+          </div>
+          <div class="padding-bottom padding-48"></div>
+          <div class="service-row service-row-1">
+            <a id="service-item-1" data-tf-popup="ck8Zw3lM" class="service-item service-row-1 w-node-f4d5dba5-bc26-821e-b0ca-e9d6f4cb5a05-daae56a8 w-inline-block" style="opacity: 1; transform: translate(0px, 0%);" data-tf-loaded="true">
+              <div class="f-color-grey">
+                <div class="f-18">According to NY State Public Health records:</div>
+              </div>
+              <div class="padding-bottom padding-4"></div>
+              <div class="f-roc-grotesk">
+                <p class="f-28">Detected Diagnosis Category Description</p>
+              </div>
+              <div class="padding-bottom padding-16"></div>
+              <p class="f-18">{{description}}</p>
+              <div class="padding-bottom padding-32"></div>
+            </a>
+          </div>
+          <div class="padding-bottom padding-40"></div>
+        </div>
+      </div>
+      <div class="padding-top padding-120"></div>
+      <script src="./static/js/gsap.min.js"></script>
+      <script src="./static/js/index.js"></script>
+  </body>
+</html>
