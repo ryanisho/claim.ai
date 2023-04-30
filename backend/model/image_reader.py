@@ -36,13 +36,13 @@ def read_image(path_to_img):
             except ValueError:
                 continue
 
-    df = pd.DataFrame(data, columns=['Description', 'Price'])
+    df = pd.DataFrame(data, columns=['description', 'price'])
 
     return df
 
 
 def main():
-    df = read_image("CLAIM.ai\data\CSBill1.png")
+    df = read_image("backend\model\data\CSBill1.png")
     print(df)
     return df
 
