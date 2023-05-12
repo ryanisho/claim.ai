@@ -11,6 +11,8 @@ This is a Flask web application that utilizes machine learning models to detect 
 
 ## Installation and Setup
 
+*Note: Please create a config.py file within the model directory with your OPENAI_KEY.
+
 1. Clone the repository:
 ```
 git clone https://github.com/ryanisho/claim.ai.git
